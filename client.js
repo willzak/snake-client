@@ -22,7 +22,7 @@ const connect = function() {
 
   conn.on('connect', () => {
     conn.write("Name: HAN");
-  })
+  });
 
   return conn;
 }
